@@ -68,6 +68,9 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    annotate (2.6.5)
+      activerecord (>= 2.3.0)
+      rake (>= 0.8.7)
     annotate_gem (0.0.14)
       bundler (>= 1.1)
     bindex (0.8.1)
@@ -215,6 +218,7 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
+  annotate
   annotate_gem
   bootsnap
   capybara
