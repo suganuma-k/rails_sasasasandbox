@@ -75,6 +75,9 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 
+  # Automatic Ruby code style checking tool. (https://github.com/rubocop-hq/rubocop)
+  gem 'rubocop', require: false
+
   # Add comments to your Gemfile with each dependency's description. (https://github.com/ivantsepp/annotate_gem)
   gem 'annotate_gem'
 
